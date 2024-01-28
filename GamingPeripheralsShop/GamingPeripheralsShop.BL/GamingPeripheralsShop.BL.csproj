@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\GamingPeripheralsShop.DL\GamingPeripheralsShop.DL.csproj" />
+    <ProjectReference Include="..\GamingPeripheralsShop.Models\GamingPeripheralsShop.Models.csproj" />
+  </ItemGroup>
+
 </Project>

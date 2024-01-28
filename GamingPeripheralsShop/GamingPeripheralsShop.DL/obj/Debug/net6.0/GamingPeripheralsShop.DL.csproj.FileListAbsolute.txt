@@ -1,0 +1,16 @@
+C:\Users\Dell Latitude E5570\Desktop\GamingPeripheralsShop\GamingPeripheralsShop\GamingPeripheralsShop.DL\bin\Debug\net6.0\GamingPeripheralsShop.DL.deps.json
+C:\Users\Dell Latitude E5570\Desktop\GamingPeripheralsShop\GamingPeripheralsShop\GamingPeripheralsShop.DL\bin\Debug\net6.0\GamingPeripheralsShop.DL.dll
+C:\Users\Dell Latitude E5570\Desktop\GamingPeripheralsShop\GamingPeripheralsShop\GamingPeripheralsShop.DL\bin\Debug\net6.0\GamingPeripheralsShop.DL.pdb
+C:\Users\Dell Latitude E5570\Desktop\GamingPeripheralsShop\GamingPeripheralsShop\GamingPeripheralsShop.DL\bin\Debug\net6.0\GamingPeripheralsShop.Models.dll
+C:\Users\Dell Latitude E5570\Desktop\GamingPeripheralsShop\GamingPeripheralsShop\GamingPeripheralsShop.DL\bin\Debug\net6.0\GamingPeripheralsShop.Models.pdb
+C:\Users\Dell Latitude E5570\Desktop\GamingPeripheralsShop\GamingPeripheralsShop\GamingPeripheralsShop.DL\obj\Debug\net6.0\GamingPeripheralsShop.DL.csproj.AssemblyReference.cache
+C:\Users\Dell Latitude E5570\Desktop\GamingPeripheralsShop\GamingPeripheralsShop\GamingPeripheralsShop.DL\obj\Debug\net6.0\GamingPeripheralsShop.DL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell Latitude E5570\Desktop\GamingPeripheralsShop\GamingPeripheralsShop\GamingPeripheralsShop.DL\obj\Debug\net6.0\GamingPeripheralsShop.DL.AssemblyInfoInputs.cache
+C:\Users\Dell Latitude E5570\Desktop\GamingPeripheralsShop\GamingPeripheralsShop\GamingPeripheralsShop.DL\obj\Debug\net6.0\GamingPeripheralsShop.DL.AssemblyInfo.cs
+C:\Users\Dell Latitude E5570\Desktop\GamingPeripheralsShop\GamingPeripheralsShop\GamingPeripheralsShop.DL\obj\Debug\net6.0\GamingPeripheralsShop.DL.csproj.CoreCompileInputs.cache
+C:\Users\Dell Latitude E5570\Desktop\GamingPeripheralsShop\GamingPeripheralsShop\GamingPeripheralsShop.DL\obj\Debug\net6.0\GamingPeripheralsShop.DL.sourcelink.json
+C:\Users\Dell Latitude E5570\Desktop\GamingPeripheralsShop\GamingPeripheralsShop\GamingPeripheralsShop.DL\obj\Debug\net6.0\GamingPeripheralsShop.DL.csproj.CopyComplete
+C:\Users\Dell Latitude E5570\Desktop\GamingPeripheralsShop\GamingPeripheralsShop\GamingPeripheralsShop.DL\obj\Debug\net6.0\GamingPeripheralsShop.DL.dll
+C:\Users\Dell Latitude E5570\Desktop\GamingPeripheralsShop\GamingPeripheralsShop\GamingPeripheralsShop.DL\obj\Debug\net6.0\refint\GamingPeripheralsShop.DL.dll
+C:\Users\Dell Latitude E5570\Desktop\GamingPeripheralsShop\GamingPeripheralsShop\GamingPeripheralsShop.DL\obj\Debug\net6.0\GamingPeripheralsShop.DL.pdb
+C:\Users\Dell Latitude E5570\Desktop\GamingPeripheralsShop\GamingPeripheralsShop\GamingPeripheralsShop.DL\obj\Debug\net6.0\ref\GamingPeripheralsShop.DL.dll

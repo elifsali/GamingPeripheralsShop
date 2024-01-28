@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GamingPeripheralsShop.DL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+14f29b4db92fc52e3f67233e2cac0fd8af7dc8ac")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e039631011b3e4c543f8144ffefdfae2cad2248a")]
 [assembly: System.Reflection.AssemblyProductAttribute("GamingPeripheralsShop.DL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GamingPeripheralsShop.DL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

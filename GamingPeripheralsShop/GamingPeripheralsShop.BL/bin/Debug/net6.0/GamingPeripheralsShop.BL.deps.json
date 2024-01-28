@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "GamingPeripheralsShop.BL/1.0.0": {
+        "dependencies": {
+          "GamingPeripheralsShop.DL": "1.0.0",
+          "GamingPeripheralsShop.Models": "1.0.0"
+        },
+        "runtime": {
+          "GamingPeripheralsShop.BL.dll": {}
+        }
+      },
+      "GamingPeripheralsShop.DL/1.0.0": {
+        "dependencies": {
+          "GamingPeripheralsShop.Models": "1.0.0"
+        },
+        "runtime": {
+          "GamingPeripheralsShop.DL.dll": {}
+        }
+      },
+      "GamingPeripheralsShop.Models/1.0.0": {
+        "runtime": {
+          "GamingPeripheralsShop.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GamingPeripheralsShop.BL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GamingPeripheralsShop.DL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GamingPeripheralsShop.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

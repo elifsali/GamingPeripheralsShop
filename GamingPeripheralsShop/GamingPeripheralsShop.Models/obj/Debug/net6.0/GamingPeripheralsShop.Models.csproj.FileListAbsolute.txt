@@ -1,0 +1,12 @@
+C:\Users\Dell Latitude E5570\Desktop\GamingPeripheralsShop\GamingPeripheralsShop\GamingPeripheralsShop.Models\bin\Debug\net6.0\GamingPeripheralsShop.Models.deps.json
+C:\Users\Dell Latitude E5570\Desktop\GamingPeripheralsShop\GamingPeripheralsShop\GamingPeripheralsShop.Models\bin\Debug\net6.0\GamingPeripheralsShop.Models.dll
+C:\Users\Dell Latitude E5570\Desktop\GamingPeripheralsShop\GamingPeripheralsShop\GamingPeripheralsShop.Models\bin\Debug\net6.0\GamingPeripheralsShop.Models.pdb
+C:\Users\Dell Latitude E5570\Desktop\GamingPeripheralsShop\GamingPeripheralsShop\GamingPeripheralsShop.Models\obj\Debug\net6.0\GamingPeripheralsShop.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell Latitude E5570\Desktop\GamingPeripheralsShop\GamingPeripheralsShop\GamingPeripheralsShop.Models\obj\Debug\net6.0\GamingPeripheralsShop.Models.AssemblyInfoInputs.cache
+C:\Users\Dell Latitude E5570\Desktop\GamingPeripheralsShop\GamingPeripheralsShop\GamingPeripheralsShop.Models\obj\Debug\net6.0\GamingPeripheralsShop.Models.AssemblyInfo.cs
+C:\Users\Dell Latitude E5570\Desktop\GamingPeripheralsShop\GamingPeripheralsShop\GamingPeripheralsShop.Models\obj\Debug\net6.0\GamingPeripheralsShop.Models.csproj.CoreCompileInputs.cache
+C:\Users\Dell Latitude E5570\Desktop\GamingPeripheralsShop\GamingPeripheralsShop\GamingPeripheralsShop.Models\obj\Debug\net6.0\GamingPeripheralsShop.Models.sourcelink.json
+C:\Users\Dell Latitude E5570\Desktop\GamingPeripheralsShop\GamingPeripheralsShop\GamingPeripheralsShop.Models\obj\Debug\net6.0\GamingPeripheralsShop.Models.dll
+C:\Users\Dell Latitude E5570\Desktop\GamingPeripheralsShop\GamingPeripheralsShop\GamingPeripheralsShop.Models\obj\Debug\net6.0\refint\GamingPeripheralsShop.Models.dll
+C:\Users\Dell Latitude E5570\Desktop\GamingPeripheralsShop\GamingPeripheralsShop\GamingPeripheralsShop.Models\obj\Debug\net6.0\GamingPeripheralsShop.Models.pdb
+C:\Users\Dell Latitude E5570\Desktop\GamingPeripheralsShop\GamingPeripheralsShop\GamingPeripheralsShop.Models\obj\Debug\net6.0\ref\GamingPeripheralsShop.Models.dll

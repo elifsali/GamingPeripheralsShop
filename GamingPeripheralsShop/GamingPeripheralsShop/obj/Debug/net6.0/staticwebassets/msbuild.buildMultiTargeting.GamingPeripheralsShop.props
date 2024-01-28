@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\GamingPeripheralsShop.props" />
+</Project>

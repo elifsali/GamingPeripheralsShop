@@ -88,6 +88,43 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "GamingPeripheralsShop.BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "GamingPeripheralsShop.DL": "1.0.0",
+          "GamingPeripheralsShop.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GamingPeripheralsShop.BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GamingPeripheralsShop.BL.dll": {}
+        }
+      },
+      "GamingPeripheralsShop.DL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "GamingPeripheralsShop.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GamingPeripheralsShop.DL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GamingPeripheralsShop.DL.dll": {}
+        }
+      },
+      "GamingPeripheralsShop.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/GamingPeripheralsShop.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GamingPeripheralsShop.Models.dll": {}
+        }
       }
     }
   },
@@ -429,10 +466,28 @@
         "swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "GamingPeripheralsShop.BL/1.0.0": {
+      "type": "project",
+      "path": "../GamingPeripheralsShop.BL/GamingPeripheralsShop.BL.csproj",
+      "msbuildProject": "../GamingPeripheralsShop.BL/GamingPeripheralsShop.BL.csproj"
+    },
+    "GamingPeripheralsShop.DL/1.0.0": {
+      "type": "project",
+      "path": "../GamingPeripheralsShop.DL/GamingPeripheralsShop.DL.csproj",
+      "msbuildProject": "../GamingPeripheralsShop.DL/GamingPeripheralsShop.DL.csproj"
+    },
+    "GamingPeripheralsShop.Models/1.0.0": {
+      "type": "project",
+      "path": "../GamingPeripheralsShop.Models/GamingPeripheralsShop.Models.csproj",
+      "msbuildProject": "../GamingPeripheralsShop.Models/GamingPeripheralsShop.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "GamingPeripheralsShop.BL >= 1.0.0",
+      "GamingPeripheralsShop.DL >= 1.0.0",
+      "GamingPeripheralsShop.Models >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
@@ -468,7 +523,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Dell Latitude E5570\\Desktop\\GamingPeripheralsShop\\GamingPeripheralsShop\\GamingPeripheralsShop.BL\\GamingPeripheralsShop.BL.csproj": {
+              "projectPath": "C:\\Users\\Dell Latitude E5570\\Desktop\\GamingPeripheralsShop\\GamingPeripheralsShop\\GamingPeripheralsShop.BL\\GamingPeripheralsShop.BL.csproj"
+            },
+            "C:\\Users\\Dell Latitude E5570\\Desktop\\GamingPeripheralsShop\\GamingPeripheralsShop\\GamingPeripheralsShop.DL\\GamingPeripheralsShop.DL.csproj": {
+              "projectPath": "C:\\Users\\Dell Latitude E5570\\Desktop\\GamingPeripheralsShop\\GamingPeripheralsShop\\GamingPeripheralsShop.DL\\GamingPeripheralsShop.DL.csproj"
+            },
+            "C:\\Users\\Dell Latitude E5570\\Desktop\\GamingPeripheralsShop\\GamingPeripheralsShop\\GamingPeripheralsShop.Models\\GamingPeripheralsShop.Models.csproj": {
+              "projectPath": "C:\\Users\\Dell Latitude E5570\\Desktop\\GamingPeripheralsShop\\GamingPeripheralsShop\\GamingPeripheralsShop.Models\\GamingPeripheralsShop.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

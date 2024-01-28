@@ -1,3 +1,11 @@
+using GamingPeripheralsShop.DL.Interfaces;
+using GamingPeripheralsShop.DL.Repositories;
+using GamingPeripheralsShop.DL.MemoryDb;
+using GamingPeripheralsShop.BL.Interfaces;
+using GamingPeripheralsShop.BL.Services;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.Extensions.DependencyInjection;
+
 namespace GamingPeripheralsShop
 {
     public class Program
@@ -5,6 +13,11 @@ namespace GamingPeripheralsShop
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+            builder.Services.AddSingleton<IProductRepository, ProductRepository>();
+            builder.Services.AddSingleton<IManufacturerRepository, ManufacturerRepository>();
+            builder.Services.AddSingleton<IProductService, ProductService>();
+            builder.Services.AddSingleton<IManufacturerService, ManufacturerService>();
 
             // Add services to the container.
             builder.Services.AddControllers();
