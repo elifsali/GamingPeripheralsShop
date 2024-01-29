@@ -1,6 +1,7 @@
 ﻿using GamingPeripheralsShop.BL.Interfaces;
 using GamingPeripheralsShop.Models.Models.User;
 using GamingPeripheralsShop.DL.Interfaces;
+using GamingPeripheralsShop.Models.Models.Request;
 
 namespace GamingPeripheralsShop.BL.Services
 {
@@ -32,5 +33,16 @@ namespace GamingPeripheralsShop.BL.Services
             _productRepository.Remove(id);
         }
 
+        public List<Product> GetAllProductsByManufacturerId(int manufacturerId)
+        {
+            return _productRepository.GetAllProductsByManufacturerId(manufacturerId);
+        }
+
+        public int TestCalculation(int number)
+        {
+            var products = _productRepository.GetAll();
+            return products.Count() + number;
+
+        }
     }
 }

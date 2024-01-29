@@ -30,5 +30,11 @@ namespace GamingPeripheralsShop.DL.Repositories
             var product = GetById(id);
             InMemoryDb.ProductData.Remove(product);
         }
+
+        public List<Product> GetAllProductsByManufacturerId(int id)
+        {
+            var result = InMemoryDb.ProductData.Where(b => b.ManufacturerId == id).ToList();
+            return result;
+        }
     }
 }

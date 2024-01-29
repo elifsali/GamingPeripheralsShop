@@ -5,6 +5,9 @@ using GamingPeripheralsShop.BL.Interfaces;
 using GamingPeripheralsShop.BL.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.Extensions.DependencyInjection;
+using FluentValidation.AspNetCore;
+using FluentValidation;
+using GamingPeripheralsShop.HealthChecks;
 
 namespace GamingPeripheralsShop
 {
@@ -16,13 +19,20 @@ namespace GamingPeripheralsShop
 
             builder.Services.AddSingleton<IProductRepository, ProductRepository>();
             builder.Services.AddSingleton<IManufacturerRepository, ManufacturerRepository>();
+
             builder.Services.AddSingleton<IProductService, ProductService>();
             builder.Services.AddSingleton<IManufacturerService, ManufacturerService>();
+            builder.Services.AddSingleton<IStoreService, StoreService>();
 
             // Add services to the container.
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            builder.Services.AddFluentValidationAutoValidation().AddFluentValidationClientsideAdapters();
+            builder.Services.AddValidatorsFromAssemblyContaining(typeof(Program));
+
+            builder.Services.AddHealthChecks().AddCheck<CustomHealthCheck>(nameof(CustomHealthCheck));
 
             var app = builder.Build();
 
@@ -34,6 +44,7 @@ namespace GamingPeripheralsShop
             }
 
             app.UseHttpsRedirection();
+
             app.UseStaticFiles();
 
             app.UseRouting();
@@ -41,6 +52,8 @@ namespace GamingPeripheralsShop
             app.UseAuthorization();
 
             app.MapControllers();
+
+            app.MapHealthChecks("/healthz");
 
             app.Run();
         }

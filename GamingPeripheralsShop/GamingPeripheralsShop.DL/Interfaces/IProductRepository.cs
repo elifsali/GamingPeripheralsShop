@@ -14,5 +14,7 @@ namespace GamingPeripheralsShop.DL.Interfaces
         Product GetById(int id);
         void Add(Product product);
         void Remove(int id);
+
+        List<Product> GetAllProductsByManufacturerId(int manufacturerId);
     }
 }
