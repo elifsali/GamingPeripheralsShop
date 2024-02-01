@@ -42,3 +42,6 @@ C:\Users\Dell Latitude E5570\Desktop\GamingPeripheralsShop\GamingPeripheralsShop
 C:\Users\Dell Latitude E5570\Desktop\GamingPeripheralsShop\GamingPeripheralsShop\GamingPeripheralsShop\obj\Debug\net6.0\GamingPeripheralsShop.pdb
 C:\Users\Dell Latitude E5570\Desktop\GamingPeripheralsShop\GamingPeripheralsShop\GamingPeripheralsShop\obj\Debug\net6.0\GamingPeripheralsShop.genruntimeconfig.cache
 C:\Users\Dell Latitude E5570\Desktop\GamingPeripheralsShop\GamingPeripheralsShop\GamingPeripheralsShop\obj\Debug\net6.0\ref\GamingPeripheralsShop.dll
+C:\Users\Dell Latitude E5570\Desktop\GamingPeripheralsShop\GamingPeripheralsShop\GamingPeripheralsShop\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\Dell Latitude E5570\Desktop\GamingPeripheralsShop\GamingPeripheralsShop\GamingPeripheralsShop\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\Dell Latitude E5570\Desktop\GamingPeripheralsShop\GamingPeripheralsShop\GamingPeripheralsShop\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
